@@ -5,6 +5,10 @@ class Book:
         # each book instance should track its own check-out status
         self._is_checked_out = False
 
+    def return_book(self):
+        """Mark this book as returned (not checked out)."""
+        self._is_checked_out = False
+
 
 class Library:
     def __init__(self):
