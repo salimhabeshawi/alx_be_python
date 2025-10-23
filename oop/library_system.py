@@ -24,5 +24,5 @@ class Library:
     
     def list_books(self):
         print(f"Book: {self.books[0].title} by {self.books[0].author}")
-        print(f"EBook: {self.books[1].title} by {self.books[1].author}, File Size: {self.books[1].file_size}")
+        print(f"EBook: {self.books[1].title} by {self.books[1].author}, File Size: {self.books[1].file_size}KB")
         print(f"PrintBook: {self.books[2].title} by {self.books[2].author}, Page Count: {self.books[2].page_count}")
